@@ -1,11 +1,12 @@
-/* General Styling */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #FFF8E7;
 }
 
-/* Navigation Bar */
+
 nav {
     background-color: #333;
     padding: 10px;
@@ -32,7 +33,7 @@ nav ul li a:hover {
     color: #ffcc00;
 }
 
-/* Table and Content */
+
 table {
     margin: 20px;
 }
@@ -42,13 +43,13 @@ td {
     vertical-align: top;
 }
 
-/* Profile Image */
+
 img {
     border-radius: 10px;
     border: 3px solid #ddd;
 }
 
-/* Headings */
+
 h1 {
     margin: 20px;
     color: #333;
@@ -58,3 +59,25 @@ h3 {
     margin-top: 15px;
     color: #444;
 }
+
+
+.destination {
+    margin: 30px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.destination img {
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.destination h2 {
+    color: #2c3e50;
+}
+
+.destination p {
+    max-width: 600px;
+    line-height: 1.6;
+}
+
